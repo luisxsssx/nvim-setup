@@ -42,6 +42,9 @@ return require('packer').startup(function(use)
   use "hrsh7th/cmp-path"
   use "hrsh7th/cmp-nvim-lsp"
 
+  -- bufferline
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
    -- snippets
   use "L3MON4D3/LuaSnip"
   use "rafamadriz/friendly-snippets"
